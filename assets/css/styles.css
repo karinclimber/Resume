@@ -171,21 +171,20 @@ img {
   margin-bottom: 20px;
 }
 .main-wrapper .section-title .fa {
-  width: 15px;
-  height: 10px;
+
   margin-right: 8px;
   display: inline-block;
-  color: #fff;
-  -webkit-border-radius: 50%;
+  color: #a50c97;
+  /* -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
+  border-radius: 50%;*/
+  /* -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #a50c97;
-  text-align: center;
+  background: #a50c97; */
+  text-align: center;  
   padding-top: 8px;
   font-size: 16px;
   position: relative;
@@ -251,11 +250,13 @@ img {
 .footer {
   padding: 30px;
   padding-top: 60px;
+  text-align: center;
 }
 .footer .copyright {
   line-height: 1.6;
   color: #545E6C;
   font-size: 13px;
+  text-align: center;
 }
 .footer .fa-heart {
   color: #fb866a;
